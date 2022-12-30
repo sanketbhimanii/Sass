@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "sass": "^1.57.1"
+  },
+  "scripts": {
+    "sass": "sass src/Sass:src/Css --watch --no-source-map",
+    "node-sass": "node-sass --output-style compressed -o dist/css src/scss"
+  },
+  "devDependencies": {
+    "node-sass": "4.5.0"
+  }
+}
+
