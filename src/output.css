@@ -1,17 +1,17 @@
-.main-box {
+.card {
   background-color: rgb(59, 57, 57);
   padding: 50px 0;
   text-transform: capitalize;
   font-family: arial;
 }
-.main-box ul {
+.card ul {
   display: flex;
   justify-content: space-evenly;
   width: 50%;
   margin: 0 auto;
   padding: 30px 0px;
 }
-.main-box ul li {
+.card li {
   list-style: none;
   font-size: 22px;
   padding: 15px;
@@ -21,14 +21,9 @@
   box-shadow: 3px 3px 10px #d7b1a2;
   border: 2px solid gray;
 }
-.main-box ul li:hover {
+.card li:hover {
   color: rgb(246, 240, 49);
   cursor: pointer;
-}
-
-* {
-  padding: 0;
-  margin: 0;
 }
 
 .content {
@@ -118,6 +113,98 @@
 }
 .mixin .third-box p::selection {
   color: rgb(246, 240, 49);
+}
+
+.extend {
+  display: flex;
+  color: #cecfbe;
+  font-family: arial;
+  padding: 0 30px;
+}
+.extend .squre-one, .extend .squre-three, .extend .squre-two {
+  background-color: rgb(225, 114, 114);
+  width: 33%;
+  border: 2px solid black;
+  padding: 20px;
+}
+.extend .squre-two {
+  background-color: rgb(205, 76, 76);
+}
+.extend .squre-three {
+  background-color: rgb(199, 107, 107);
+}
+
+.number-test {
+  margin: 10px;
+  margin: 6px;
+  margin: 4px;
+  margin: 6px;
+  margin: 5px;
+  margin: 50px;
+  margin: 20px;
+  margin: 10%;
+  margin: true;
+  margin: false;
+  margin: 0.0511544632;
+  margin: "px";
+  margin: "";
+  margin: false;
+  margin: true;
+}
+
+.string-test {
+  font-family: "Arial";
+  font-family: Arial;
+  font-family: ARIAL;
+  font-family: arial;
+  font-family: 5;
+  font-family: 6;
+  font-family: "helvetica mono neue";
+  font-family: "etica neue";
+  font-family: "elvetica ";
+  font-family: "elve";
+  font-family: unique-id;
+}
+
+.color {
+  margin: 20px auto;
+  width: 50%;
+  padding: 30px;
+  background-color: #5a0010;
+  background-color: #9999ff;
+  background-color: #4e41e1;
+  background-color: #8441e1;
+  background-color: #b941e1;
+  background-color: #e141d4;
+  background-color: #ba1515;
+  background-color: #ce0101;
+  background-color: #cf0000;
+  background-color: #cf0000;
+  background-color: #0d730d;
+  background-color: #1a661a;
+  background-color: #265a26;
+  background-color: #334d33;
+  background-color: #8060e5;
+  background-color: #804000;
+  background-color: rgba(255, 192, 203, 0.7);
+}
+
+.list-test {
+  padding: 3;
+  padding: 20px;
+  padding: chirag;
+  padding: 10px 40px 30px;
+  padding: 10px 20px 30px 40px 50px 60px;
+  padding: 10px 20px 30px 80px;
+  padding: 10px 40px, 20px 50px, 30px 60px;
+  padding: sanket 40px, chirag 50px, chetan 60px;
+  padding: 2;
+  padding: space;
+}
+
+* {
+  padding: 0;
+  margin: 0;
 }
 
 /*# sourceMappingURL=output.css.map */

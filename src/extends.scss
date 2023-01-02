@@ -1,0 +1,30 @@
+.extend {
+  display: flex;
+  color: $primary-color;
+  font-family: $primary-font;
+  padding: 0 30px;
+
+
+  .squre-one {
+    background-color: rgb(225, 114, 114);
+    width: 33%;
+    border: 2px solid black;
+    padding: 20px;
+  }
+
+  .squre-two {
+    background-color: rgb(205, 76, 76);
+    // width: 33%;
+    // border: 2px solid black;
+    // padding: 20px;
+    @extend .squre-one
+  }
+
+  .squre-three {
+    background-color: rgb(199, 107, 107);
+    // width: 33%;
+    // border: 2px solid black;
+    // padding: 20px;
+    @extend .squre-one
+  }
+}

@@ -1,0 +1,117 @@
+// Number functions
+
+.number-test {
+  margin: abs(-10px);
+
+  margin: ceil(5.5px);
+
+  margin: floor(4.5px);
+
+  margin: round(5.6px);
+  margin: round(5.3px);
+
+  margin: max(40px, 50px);
+
+  margin: min(20px, 30px, 40px);
+
+  margin: percentage(0.1);
+
+  margin: comparable($number1: 2px, $number2: 3px);
+  margin: comparable($number1: 4px, $number2: 3em);
+
+  margin: random();
+
+  margin: unit(100px);
+  margin: unit(100);
+
+  margin: unitless(20px);
+  margin: unitless(20);
+}
+
+// String functions
+
+.string-test {
+
+  font-family: quote(Arial);
+
+  font-family: unquote("Arial");
+
+  font-family: to-upper-case(Arial);
+
+  font-family: to-lower-case(Arial);
+
+  font-family: str-length(Arial);
+
+  font-family: str-index("helvetica new", "tica");
+
+  font-family: str-insert("helvetica neue", " mono", 10);
+
+  font-family: str-slice("helvetica neue", 5);
+  font-family: str-slice("helvetica neue", 2, 10);
+  font-family: str-slice("helvetica neue", 2, -10);
+
+  font-family: unique-id ();
+}
+
+// Colors function
+
+.color {
+
+
+
+  margin: 20px auto;
+  width: 50%;
+  // padding: 30px;
+
+
+  background-color: darken(pink, 70);
+
+  background-color: lighten(blue, 30);
+
+  background-color: adjust-hue(royalblue, 20);
+  background-color: adjust-hue(royalblue, 40);
+  background-color: adjust-hue(royalblue, 60);
+  background-color: adjust-hue(royalblue, 80);
+
+  background-color: saturate(brown, 20);
+  background-color: saturate(brown, 40);
+  background-color: saturate(brown, 60);
+  background-color: saturate(brown, 80);
+
+  background-color: desaturate(green, 20);
+  background-color: desaturate(green, 40);
+  background-color: desaturate(green, 60);
+  background-color: desaturate(green, 80);
+
+  background-color: mix(blue, pink, 50);
+  background-color: mix(red, green, 50);
+
+  background-color: transparentize(pink, 0.3);
+}
+
+// List Function
+
+$list: 10px 20px 30px;
+$list-two:40px 50px 60px;
+
+.list-test {
+
+  padding: length($list);
+
+  padding: nth($list , 2);
+  padding: nth([sanket chirag chetan] , 2);
+
+  padding: set-nth($list , 2 ,40px);
+
+  padding: join($list , $list-two);
+
+  padding: append($list , 80px);
+
+  padding: zip($list,$list-two);
+  padding: zip((sanket ,chirag,chetan), $list-two);
+  
+  padding: index($list, 20px);
+
+  padding: list-separator($list);
+
+}

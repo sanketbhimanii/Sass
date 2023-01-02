@@ -2,9 +2,16 @@
 // $secondary-color: rgb(218, 65, 38);
 // $primary-font: arial;
 @import "variables";
-@import "main-box";
+@import "card";
 @import "content";
 @import "mixin";
+@import "extends";
+@import "functions";
+ 
+* {
+   padding: 0;
+   margin: 0;
+ }
 // .main-box {
 //   background-color: #545c5f;
 //   padding: 50px 0;
