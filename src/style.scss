@@ -1,0 +1,103 @@
+// $primary-color: #cecfbe;
+// $secondary-color: rgb(218, 65, 38);
+// $primary-font: arial;
+@import "variables";
+@import "main-box";
+@import "content";
+@import "mixin";
+// .main-box {
+//   background-color: #545c5f;
+//   padding: 50px 0;
+//   text-transform: capitalize;
+//   font-family: $primary-font;
+
+//   ul {
+//     display: flex;
+//     justify-content: space-between;
+//     width: 50%;
+//     margin: 0 auto;
+//     padding-bottom: 30px;
+//   }
+
+//   ul li {
+//     list-style: none;
+//     font-size: 22px;
+//     color: $primary-color;
+//   }
+
+//   ul li:hover {
+//     color: $secondary-color;
+//     cursor: pointer;
+//   }
+// }
+
+//Nesting container
+
+//  .content {
+//    margin: 0px auto;
+//    width: 50%;
+//    background-color: #5b775e;
+//    padding: 20px;
+//    border-radius: 10px;
+//    box-sizing: border-box;
+
+//    h3 {
+//      color: $primary-color;
+//      font-size: 48px;
+
+//      &:hover {
+//        color: $secondary-color;
+//        cursor: pointer;
+//      }
+//    }
+
+//    p {
+//      font-size: 20px;
+//      line-height: 25px;
+//      color: $primary-color;
+
+//      &::selection {
+//        color: $secondary-color;
+//        cursor: pointer;
+//      }
+//    }
+//  }
+// @mixin shadow($shadow){
+//  -webkit-box-shadow:$shadow ;
+//  -moz-box-shadow:$shadow ;
+//   box-shadow: $shadow;
+
+// }
+// .mixin {
+
+//   .first-box {
+//     background-color: rgb(230, 178, 178);
+//     padding: 20px;
+//     width: 50%;
+//     margin: 20px auto;
+//     border-radius: 10px;
+//     box-sizing: border-box;
+//     @include shadow(5px 5px 5px rgb(240, 56, 56))
+
+//   }
+
+//   .second-box {
+//     background-color: rgb(243, 243, 197);
+//     padding: 20px;
+//     width: 50%;
+//     margin: 20px auto;
+//     border-radius: 10px;
+//     box-sizing: border-box;
+//     @include shadow(10px 10px 5px rgb(226, 203, 89))
+//   }
+
+//   .third-box {
+//     background-color: rgb(183, 183, 233);
+//     padding: 20px;
+//     width: 50%;
+//     margin: 20px auto;
+//     border-radius: 10px;
+//     box-sizing: border-box;
+//     @include shadow(15px 15px 5px rgb(51, 69, 135))
+//   }
+// }

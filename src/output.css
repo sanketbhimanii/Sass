@@ -1,0 +1,123 @@
+.main-box {
+  background-color: rgb(59, 57, 57);
+  padding: 50px 0;
+  text-transform: capitalize;
+  font-family: arial;
+}
+.main-box ul {
+  display: flex;
+  justify-content: space-evenly;
+  width: 50%;
+  margin: 0 auto;
+  padding: 30px 0px;
+}
+.main-box ul li {
+  list-style: none;
+  font-size: 22px;
+  padding: 15px;
+  border-radius: 12px;
+  color: #cecfbe;
+  background-color: rgb(59, 57, 57);
+  box-shadow: 3px 3px 10px #d7b1a2;
+  border: 2px solid gray;
+}
+.main-box ul li:hover {
+  color: rgb(246, 240, 49);
+  cursor: pointer;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.content {
+  margin: 0px auto;
+  width: 50%;
+  background-color: rgb(59, 57, 57);
+  padding: 20px;
+  border-radius: 10px;
+  box-sizing: border-box;
+  border: 2px solid gray;
+  -webkit-box-shadow: 5px 5px 10px #d7b1a2;
+  -moz-box-shadow: 5px 5px 10px #d7b1a2;
+  box-shadow: 5px 5px 10px #d7b1a2;
+}
+.content h3 {
+  color: #cecfbe;
+  font-size: 48px;
+}
+.content h3:hover {
+  color: rgb(246, 240, 49);
+  cursor: pointer;
+}
+.content p {
+  font-size: 20px;
+  line-height: 25px;
+  color: #cecfbe;
+}
+.content p::selection {
+  color: rgb(246, 240, 49);
+  cursor: pointer;
+}
+
+.mixin {
+  font-weight: 500;
+  color: #cecfbe;
+}
+.mixin .first-box {
+  background-color: rgb(59, 57, 57);
+  padding: 20px;
+  width: 50%;
+  margin: 30px auto;
+  border-radius: 10px;
+  box-sizing: border-box;
+  -webkit-box-shadow: 5px 5px 10px #d7b1a2;
+  -moz-box-shadow: 5px 5px 10px #d7b1a2;
+  box-shadow: 5px 5px 10px #d7b1a2;
+  border: 2px solid gray;
+}
+.mixin .first-box p {
+  font-size: 20px;
+}
+.mixin .first-box p::selection {
+  color: rgb(246, 240, 49);
+}
+.mixin .second-box {
+  background-color: rgb(59, 57, 57);
+  padding: 20px;
+  width: 50%;
+  margin: 30px auto;
+  border-radius: 10px;
+  box-sizing: border-box;
+  -webkit-box-shadow: 5px 5px 10px #d7b1a2;
+  -moz-box-shadow: 5px 5px 10px #d7b1a2;
+  box-shadow: 5px 5px 10px #d7b1a2;
+  border: 2px solid gray;
+}
+.mixin .second-box p {
+  font-size: 20px;
+}
+.mixin .second-box p::selection {
+  color: rgb(246, 240, 49);
+}
+.mixin .third-box {
+  background-color: rgb(59, 57, 57);
+  padding: 20px;
+  width: 50%;
+  margin: 30px auto;
+  border-radius: 10px;
+  box-sizing: border-box;
+  -webkit-box-shadow: 5px 5px 10px #d7b1a2;
+  -moz-box-shadow: 5px 5px 10px #d7b1a2;
+  box-shadow: 5px 5px 10px #d7b1a2;
+  border: 2px solid gray;
+}
+.mixin .third-box p {
+  font-size: 20px;
+}
+.mixin .third-box p::selection {
+  color: rgb(246, 240, 49);
+}
+
+/*# sourceMappingURL=output.css.map */

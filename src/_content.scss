@@ -1,0 +1,42 @@
+ //Nesting container
+ @mixin shadow($shadow) {
+   -webkit-box-shadow: $shadow ;
+   -moz-box-shadow: $shadow ;
+   box-shadow: $shadow;
+ }
+ *{
+  padding: 0;
+  margin: 0;
+ }
+
+ .content {
+   margin: 0px auto;
+   width: 50%;
+   background-color:$main-color;
+   padding: 20px;
+   border-radius: 10px;
+   box-sizing: border-box;
+   border: 2px solid gray;
+   @include shadow(5px 5px 10px $shadow-color);
+   
+    h3 {
+     color: $primary-color;
+     font-size: 48px;
+
+     &:hover {
+       color: $secondary-color;
+       cursor: pointer;
+     }
+   }
+
+   p {
+     font-size: 20px;
+     line-height: 25px;
+     color: $primary-color;
+
+     &::selection {
+       color: $secondary-color;
+       cursor: pointer;
+     }
+   }
+ }
